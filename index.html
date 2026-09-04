@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abid Hasan — Developer & Graphics Designer portfolio.">
+  <title>Abid Hasan | Developer & Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header">
+    <a class="logo" href="#home"><span>&lt;</span>Abid<span>/&gt;</span></a>
+    <nav id="nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☼</button>
+      <a class="nav-cta" href="#contact">Let's Talk <span>↗</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><i></i> Available for freelance work</div>
+        <h1>Turning ideas into <span>digital experiences.</span></h1>
+        <p class="hero-text">I'm Abid Hasan, a developer and graphics designer who loves building clean, modern websites and memorable visual experiences.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work <span>↗</span></a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>2+</strong><small>Years Experience</small></div>
+          <div><strong>15+</strong><small>Projects</small></div>
+          <div><strong>100%</strong><small>Passion</small></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="orb orb-a"></div><div class="orb orb-b"></div>
+        <div class="code-card">
+          <div class="window-bar"><span></span><span></span><span></span><b>portfolio.js</b></div>
+          <pre><code><em>const</em> developer = {
+  name: <strong>"Abid Hasan"</strong>,
+  role: <strong>"Developer"</strong>,
+  skills: [
+    <strong>"Python"</strong>,
+    <strong>"Web Design"</strong>,
+    <strong>"Graphics"</strong>
+  ],
+  passion: <strong>"Building cool things"</strong>
+};
+
+developer.<em>create</em>();</code></pre>
+          <div class="code-glow"></div>
+        </div>
+        <div class="floating-card card-one">✦ <span>Creative</span></div>
+        <div class="floating-card card-two">⌘ <span>Developer</span></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading reveal"><span>01</span><div><p class="kicker">ABOUT ME</p><h2>A little bit about <span>me.</span></h2></div></div>
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="portrait-placeholder"><div class="initials">AH</div><span>Developer × Designer</span></div>
+          <div class="experience-badge"><strong>2+</strong><span>Years of<br>freelancing</span></div>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">I enjoy combining <b>technology and creativity</b> to turn simple ideas into polished digital products.</p>
+          <p>I'm a Diploma student and an aspiring full-stack developer. I work with Python and modern web technologies, while also using my graphics design skills to make interfaces look as good as they work.</p>
+          <p>When I'm not coding, I'm learning something new, experimenting with designs, or working on a personal project.</p>
+          <div class="about-tags"><span>Problem Solver</span><span>Fast Learner</span><span>Creative Thinker</span></div>
+          <a class="text-link" href="#contact">Let's work together <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-heading centered reveal"><span>02</span><div><p class="kicker">MY SKILLS</p><h2>Tools I <span>work with.</span></h2></div></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">{ }</div><h3>Python</h3><p>Programming, automation, problem solving and application development.</p><div class="bar"><i style="width:88%"></i></div><small>Advanced Beginner</small></article>
+        <article class="skill-card reveal"><div class="skill-icon">◈</div><h3>Web Development</h3><p>Responsive interfaces using HTML, CSS, JavaScript and modern UI principles.</p><div class="bar"><i style="width:84%"></i></div><small>Strong</small></article>
+        <article class="skill-card reveal"><div class="skill-icon">✦</div><h3>Graphics Design</h3><p>Social media visuals, branding, posters and clean visual compositions.</p><div class="bar"><i style="width:90%"></i></div><small>Strong</small></article>
+        <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Git & GitHub</h3><p>Version control, repositories, collaboration and publishing projects.</p><div class="bar"><i style="width:72%"></i></div><small>Learning</small></article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading reveal"><span>03</span><div><p class="kicker">SELECTED WORK</p><h2>Things I've <span>built.</span></h2></div><a href="#contact" class="text-link heading-link">Have a project? →</a></div>
+      <div class="project-grid">
+        <article class="project-card featured reveal"><div class="project-image gradient-one"><div class="mock-browser"><div class="mini-nav"></div><div class="mini-content"><b>EXPENSE</b><strong>TRACKER</strong><div class="mini-boxes"><i></i><i></i><i></i></div></div></div></div><div class="project-info"><div><small>WEB APP</small><h3>Expense Tracker</h3></div><p>A clean dashboard concept for tracking income, expenses and personal finances.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div></div></article>
+        <article class="project-card reveal"><div class="project-image gradient-two"><div class="brand-mark">INVERSE</div><div class="brand-line">WEAR WHAT<br>YOU ARE.</div></div><div class="project-info"><div><small>BRANDING</small><h3>Inverse Clothing</h3></div><p>Minimal visual identity and apparel concept for a modern clothing brand.</p><div class="project-tags"><span>Branding</span><span>Design</span></div></div></article>
+        <article class="project-card reveal"><div class="project-image gradient-three"><div class="login-ui"><div class="avatar"></div><b>Welcome back</b><i></i><i></i><button>LOGIN</button></div></div><div class="project-info"><div><small>UI DESIGN</small><h3>Modern Login UI</h3></div><p>A sleek responsive authentication screen with a focused user experience.</p><div class="project-tags"><span>UI/UX</span><span>CSS</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="process section">
+      <div class="section-heading centered reveal"><span>04</span><div><p class="kicker">MY PROCESS</p><h2>From idea to <span>reality.</span></h2></div></div>
+      <div class="process-grid">
+        <div class="process-item reveal"><b>01</b><div><h3>Discover</h3><p>Understand the idea, goals and people who will use it.</p></div></div>
+        <div class="process-item reveal"><b>02</b><div><h3>Design</h3><p>Create a clear visual direction and intuitive experience.</p></div></div>
+        <div class="process-item reveal"><b>03</b><div><h3>Build</h3><p>Turn the design into a fast, responsive and functional product.</p></div></div>
+        <div class="process-item reveal"><b>04</b><div><h3>Refine</h3><p>Test, polish and improve every detail before launch.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-box reveal">
+        <div class="contact-copy"><p class="kicker">GET IN TOUCH</p><h2>Have an idea?<br><span>Let's build it.</span></h2><p>I'm always open to interesting projects, collaborations and new opportunities.</p><div class="contact-links"><a href="mailto:hello@example.com">✉ <span>hello@example.com</span></a><a href="#home">↗ <span>GitHub / LinkedIn</span></a></div></div>
+        <form id="contactForm">
+          <label>Name<input required type="text" name="name" placeholder="Your name"></label>
+          <label>Email<input required type="email" name="email" placeholder="you@example.com"></label>
+          <label>Message<textarea required name="message" rows="5" placeholder="Tell me about your project..."></textarea></label>
+          <button class="btn primary" type="submit">Send Message <span>↗</span></button>
+          <p id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="logo"><span>&lt;</span>Abid<span>/&gt;</span></div><p>Designed & built with curiosity.</p><small>© <span id="year"></span> Abid Hasan. All rights reserved.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
